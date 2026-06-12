@@ -1,0 +1,37 @@
+to select / point out a part of the code 
+
+1) id selector
+    to select element by using id (#)
+
+2) class selector 
+    to select element by using class (.)
+
+3) element selector 
+    to select element by using element name(p)
+
+4) Group Selctor 
+    using multiple element name together 
+
+5) CSS Combinators 
+    - " " Descendent Selector 
+    --> It matches all the elements that are Descendents (children, grandchildren) of a specified element
+
+    - ">" Child Selector
+    --> It selects all the elements that are direct child of that specified element
+    --> Only selects immediate, first-generation child elements.
+
+    - "+" next sibling selector 
+    --> IT selects an element that is directly after a specified element . Siblings must have same parent
+
+    // * provide this properties to the paragraph tag that comes exactly after image tag
+        img + p {
+        color: blue;
+        font-weight: bold;
+        }
+
+    - "+" subsequent sibling selctor
+    --> selects all siblings of a specified element
+
+6. Attribute Selctors:
+        you proide properties to the attributes of a tag
+        elementName[attribute]

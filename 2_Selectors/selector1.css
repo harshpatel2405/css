@@ -1,0 +1,29 @@
+/* 
+*Universal selectors -- it selects everything
+*/
+*
+{
+    border : 1px solid white;
+    padding:0px;
+    margin:0px;
+}
+
+
+/* class selector */
+.par
+{
+    color:white;
+}
+
+/* id selector */
+/* #par1
+{
+    color:yellow;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} */
+
+/* element selector */
+p{
+    color:green;
+}

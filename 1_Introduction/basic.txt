@@ -1,0 +1,30 @@
+CSS
+Cascading Style Sheet 
+
+CSS is used for enhancing the appearance of the webpage 
+
+Types 
+-----
+style tag 
+
+1. Inline css      writing inside tag attributes
+2. Internal css    writing in the file in the style tag
+3. External css    making other file with .css and including it in a html file 
+
+* selector  universal
+tag selector  proving properties to a specific tag 
+id selector  #  unique 
+class selector  . multiple statments
+
+
+CSS FrameWorks : tailwind , materialUI, Bootstrap
+Color Code : https://www.colorhunt.co
+
+
+CSS Priorities : (lower to higher)
+Browser CSS -> Internal css -> External CSS ->Inline CSS
+
+Selctor Priortities 
+group selctor -> element (tag) selctor ->class selctor -> id selctor
+
+animations and transitions
