@@ -1,0 +1,110 @@
+=======================================================================
+1.
+<body>
+<h1>My Website</h1>
+
+    <p>This is paragraph 1</p>
+
+    <p class="special">
+        This is paragraph 2
+    </p>
+</body>
+
+Tasks
+a. Make all <p> tags green.
+b. Make the element with class special yellow.
+c. Add a blue border to everything using the universal selector.
+=======================================================================
+2. 
+<body>
+<h2 id="title">Welcome</h2>
+
+<p class="info">Paragraph 1</p>
+
+    <p class="info">
+        Paragraph 2
+    </p>
+</body>
+
+Tasks
+a. Make #title red.
+b. Make all .info paragraphs cyan.
+c. Add italic style only to the element with id title.
+d. Which selector has the highest priority ?
+=======================================================================
+3. 
+<body>
+
+<div class="container">
+
+    <p>Paragraph 1</p>
+
+    <div>
+        <p>Paragraph 2</p>
+    </div>
+
+</div>
+
+</body>
+
+Tasks
+a. Using a descendant selector, make both paragraphs yellow.
+b. Using a child selector, make only Paragraph 1 green.
+=======================================================================
+4. 
+<body>
+
+<div class="box">
+    Box Content
+</div>
+
+<p>Paragraph 1</p>
+
+<p target="_blank">
+    Paragraph 2
+</p>
+
+<p>
+    Paragraph 3
+</p>
+
+</body>
+
+Tasks
+a. Use an adjacent sibling selector to make only Paragraph 1 yellow.
+b. Use a general sibling selector to make Paragraph 1, 2, and 3 green.
+c. Use an attribute selector to make Paragraph 2 red.
+d. Add a white border to everything using the universal selector.
+=======================================================================
+5. Final Task 
+<body>
+
+<h1 id="heading">
+CSS Practice
+</h1>
+
+<div class="container">
+
+    <p>
+        Paragraph 1
+    </p>
+
+    <p class="highlight">
+        Paragraph 2
+    </p>
+
+</div>
+
+<p target="_blank">
+    Paragraph 3
+</p>
+
+</body>
+
+Tasks :
+a. All elements should have a white border.
+b. Heading should be yellow.
+c. Paragraph 2 should be cyan.
+d. All paragraphs inside .container should be green.
+e. Paragraph 3 should be red using an attribute selector.
+=======================================================================

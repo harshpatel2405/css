@@ -1,0 +1,38 @@
+*
+{
+    border : 2px solid blue;
+    margin:0px;
+    padding :0px;
+}
+
+.container
+{
+    border : 2px solid yellow;
+}
+
+/* descedant selector  will select all inside a selector*/
+/* div p{
+    color: yellow;
+} */
+
+/* child selctor */
+/* .container > p
+{
+    color:yellow;
+} */
+
+/* next sibling selctor */
+/* .container + p{
+    color:yellow;
+} */
+
+/* subsequent sibling selector */
+/* .container ~ p{
+    color:yellow;
+} */
+
+/* attribute selctor */
+p[target = "_blank"]
+{
+    color:yellow;
+}

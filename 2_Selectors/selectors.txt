@@ -29,7 +29,7 @@ to select / point out a part of the code
         font-weight: bold;
         }
 
-    - "+" subsequent sibling selctor
+    - "~" subsequent sibling selctor
     --> selects all siblings of a specified element
 
 6. Attribute Selctors:
