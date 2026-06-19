@@ -1,0 +1,113 @@
+CSS PRACTICE SET (BASIC TO INTERMEDIATE)
+
+Q1: Basic Selectors + Color Application (Easy)
+Create a webpage with:
+- A heading (h1)
+- A paragraph (p)
+- A button
+
+Tasks:
+1. Apply internal CSS
+2. Set:
+   - h1 color → red (using color name)
+   - p color → rgb(0, 100, 200)
+   - button text color → #ffffff
+   - button background → black
+
+------------------------------------------------------------
+
+Q2: Class & ID Selector + Priority
+Create a webpage with:
+- 1 heading with id="main-title"
+- 2 paragraphs with class="text"
+- 1 special paragraph with class="highlight"
+
+Tasks:
+1. Use external CSS file
+2. Apply styles:
+   - #main-title → blue color, font-size 30px
+   - .text → gray color
+   - .highlight → red color + bold text
+3. Add inline CSS to one paragraph:
+   - color = green
+
+------------------------------------------------------------
+
+Q3: Combinators Practice (Descendant + Child + Sibling)
+
+HTML Structure:
+<div>
+  <h2>Title</h2>
+  <p>Paragraph 1</p>
+  <p>Paragraph 2</p>
+
+  <section>
+    <p>Nested paragraph</p>
+  </section>
+
+  <img src="image.jpg">
+  <p>Paragraph after image</p>
+</div>
+
+Tasks:
+1. Style all <p> inside div → green (descendant selector)
+2. Style only direct child <p> of div → blue (child selector)
+3. Style paragraph immediately after image → red + bold (adjacent sibling +)
+4. Style all paragraphs after image → italic (~ selector)
+
+Concepts:
+- Descendant selector
+- Child selector
+- Adjacent sibling
+- General sibling
+
+------------------------------------------------------------
+
+Q4: Attribute Selector + Background Styling
+
+Create a form with:
+- input type text
+- input type password
+- input type email
+- button submit
+
+Tasks:
+1. Style:
+   - input[type="text"] → yellow background
+   - input[type="password"] → pink background
+2. Set:
+   - body background → #f0f0f0
+   - button background → rgb color
+3. Use attribute selectors properly
+
+Concepts:
+- Attribute selector
+- Background vs background-color
+- RGB, HEX usage
+
+
+------------------------------------------------------------
+
+Q5: Mini Project - Profile Card
+
+Create a profile card UI with:
+- Image
+- Name (h2)
+- Description paragraph
+- Button "Follow"
+
+Tasks:
+1. Use external CSS
+2. Apply:
+   - Card background → HSL color
+   - Name color → hex color
+   - Paragraph color → rgb color
+3. Use selectors:
+   - class for card
+   - id for name
+   - element selector for paragraph
+4. Style:
+   - border
+   - padding
+   - margin
+   - button background black, text white
