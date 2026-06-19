@@ -1,0 +1,33 @@
+body
+{
+    /* background: rgb(10, 26, 24); */
+    background-color: #212121;
+}
+
+/* color name */
+/* p
+{
+    color:aqua;
+} */
+
+/* using rgb function */
+/* p{
+     /* color:rgb(4, 150, 228);  
+    color:rgb(0,255,0);
+} */
+
+/* using hex value */
+/* p{
+    color:#ec0789
+} */
+
+/* using hsl */
+/* p{
+    color:hsl(100, 100%, 50%);
+} */
+
+/* using hsla */
+/* p
+{
+    color:hsla(196, 100%, 50%, 0.719);
+} */

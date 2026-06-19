@@ -1,0 +1,10 @@
+Properties of Color : 
+
+1. Using Color name => color :  "color name"
+2. Using RGB Function => color : rgb(red, green , blue) (each color has range of 256 values (0-255))
+3. Using Hexa Values => color : #"hexCode"  #f70707 (r - 00 , g - 00, b - 00)
+4. using HSL => color : hsl(hue, saturation , lightness) (hue -(0 - 360), saturation - intensity (0 % - no color , 100 % - full color), lightness - 0% - black  50% - grey/normal 100% - white )
+
+Background color :
+1. Using Background => Background :  "color name"
+2. Using Background-color => Background-color : "color-name"
