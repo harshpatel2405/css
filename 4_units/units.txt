@@ -1,0 +1,16 @@
+Different types of units 
+
+1. px (pixels) : mostly used in margin, padding and width (most used units in css)  => 1px = 1/96 inch 
+2. % (percentage) : used in inheriting parent style (2nd most used unit)
+3. ch (character) : The ch in Unit will be representing the width of character '0'
+                    character of the element's current font
+4. vh (view height) : represents height of webpage 1% part
+                      1vh = 1% of screen height 
+                            ------------------- = 100 %
+                                100 vh
+5. vw (view width)  : represents width of webpage 1% part
+                      1vw = 1% of screen width 
+                            ------------------- = 100 %
+                                100 vw
+6. em (element size) : relative font-size of the current element
+7. rem (root element size) : relative font -size of root element
