@@ -1,0 +1,92 @@
+Box inside box
+
++-----------------------------------+
+|             Margin                |
+|   +---------------------------+   |
+|   |          Border           |   |
+|   |   +-------------------+   |   |
+|   |   |      Padding      |   |   |
+|   |   | +-------------+   |   |   |
+|   |   | |   Content   |   |   |   |
+|   |   | +-------------+   |   |   |
+|   |   +-------------------+   |   |
+|   +---------------------------+   |
++-----------------------------------+
+
+1. Content
+Actual thing inside the box
+<h1>Hello</h1>
+
+Hello is the content
+
+Real Gift : TOY
+
+
+2. Padding 
+Empty space inside the box
+Bubble Wrap around the toy 
+
+h1
+{
+    padding: 30px;
+}
+
+3. Border
+Wall of the box 
+Gift Box
+
+4. Margin 
+Space Outside the box
+
+No Margin -- box will touch each other 
+With Other - box will not touch each other
+
+
+<=================================================>
+Box Sizing 
+----------
+1. Content Box 
+
+.container
+{
+    width : 400px;
+    padding : 20px;
+    Border : 10px solid black;
+    box-Sizing : content-box;
+}
+
+The browser will think that content alone is 400 px 
+
+Content = 400px;
+padding = 20px left + 20px right = 40px
+border = 10px left + 10px right = 20px
+
+Total width of screen would be 400 + 40 + 20 = 460
+
+|<-----------460px------------->|
+
++--------------------------------------+
+| Border (10px)                        |
+|  +--------------------------------+  |
+|  | Padding (20px)                 |  |
+|  |  +--------------------------+  |  |
+|  |  |    Content (400px)       |  |  |
+|  |  +--------------------------+  |  |
+|  +--------------------------------+  |
++--------------------------------------+
+
+2. Border Box 
+
+The entrire box should be 400 px 
+
+|<---------400px---------->|
+
++------------------------------+
+| Border  (20px)                     |
+|  +------------------------+  |
+|  | Padding  (40px)              |  |
+|  |  +------------------+  |  |
+|  |  | Content 340px    |  |  |
+|  |  +------------------+  |  |
+|  +------------------------+  |
++------------------------------+
