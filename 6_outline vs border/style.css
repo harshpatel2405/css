@@ -1,0 +1,26 @@
+.border
+{
+    /* border : 2px solid red; */
+    background-color: #333;
+    border-radius: 10px;
+    /* border-bottom-color: blue;
+    border-top-color: green;
+    border-right-color: yellow;
+    border-radius: 3px; */
+    /* padding : 10px; */
+} 
+
+.outline
+{
+    outline: 2px solid red;
+    background-color: #333;
+    border-radius: 10px;
+    outline-offset: 5px;
+}
+
+button{
+    font-size: 1.4rem;
+    border: 0;
+    cursor: pointer;
+    padding : .5em 1em
+}

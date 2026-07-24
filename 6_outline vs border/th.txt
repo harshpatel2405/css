@@ -1,0 +1,15 @@
+| Border                                 | Outline                                                              |
+| -------------------------------------- | -------------------------------------------------------------------- |
+| Part of the CSS Box Model              | Not part of the Box Model                                            |
+| Takes up space                         | Does **not** take up space                                           |
+| Affects element size                   | Does not affect element size                                         |
+| Can have different styles on each side | Applies to the whole element only                                    |
+| Can use `border-radius`                | Usually follows the element outline but isn't part of the border box |
+| Used for designing elements            | Commonly used for focus/accessibility                                |
+
+
+Border is like Wall of the House 
+Outline is like drawing with a marker Outside the box 
+
+Border : notebook cover 
+Outline : someone makes a circle around the notebook
