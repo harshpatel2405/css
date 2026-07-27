@@ -1,0 +1,125 @@
+=========================================
+CSS Practice Questions
+=========================================
+
+Q1.
+Create a webpage with a heading "Welcome to CSS" and a paragraph.
+Apply:
+- Background color: light gray
+- Heading color: dark blue
+- Paragraph color: black
+
+----------------------------------------
+
+Q2.
+Create a box with:
+- Width: 400px
+- Padding: 25px
+- Background color: white
+
+Write the HTML and CSS.
+
+----------------------------------------
+
+Q3.
+Create an h1 element.
+Apply the following:
+- Uppercase text
+- Font size: 48px
+- Bold text
+- Italic style
+- Orange color
+
+----------------------------------------
+
+Q4.
+Create a div with the class "card".
+Apply:
+- White background
+- Width: 500px
+- Padding: 30px
+- Outline: 10px solid rgba(0,0,0,0.3)
+
+What is the difference between outline and border?
+
+----------------------------------------
+
+Q5.
+Find the errors and correct them.
+
+.box{
+    background color: yellow;
+    colour: red;
+    paddding: 20px;
+    widht: 300px;
+}
+
+----------------------------------------
+
+Q6.
+Predict the output.
+
+HTML
+
+<div class="box">
+    CSS Practice
+</div>
+
+CSS
+
+.box{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    width: 250px;
+}
+
+Describe how the box will look.
+
+----------------------------------------
+
+Q7.
+Create a webpage that uses:
+- One id selector
+- One class selector
+- One element selector
+
+Apply different colors using each selector.
+
+----------------------------------------
+
+Q8.
+Use different CSS units.
+
+Create a div with:
+- Width: 60vw
+- Font size: 2rem
+- Line height: 1.5
+- Padding: 2em
+
+Explain why each unit is used.
+
+----------------------------------------
+
+Q9.
+Create a content box with:
+- Background image
+- Background size: cover
+- White text
+- Width: 70vw
+- Padding: 40px
+
+----------------------------------------
+
+Q10.
+Create a simple profile card.
+
+Requirements:
+- White background
+- Width: 350px
+- Padding: 25px
+- Outline: 8px solid gray
+- Name in uppercase
+- Bold and italic heading
+- Description below the heading
+- Different text colors for heading and description

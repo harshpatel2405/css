@@ -1,0 +1,18 @@
+Box-Shadow
+==========
+Providing shadows to HTML elements
+
+Soft Shadows 
+Hard Shadows
+Glowing Effects
+3D Effects 
+
+box-shadow : horizontal-offset vertical-offset blur-radius spread-radius color;
+box-shadow : 5px 5px 10px 10px gray
+
+
+horizontal-offset : move shadow left(-) or right(+)
+vertical-offset : move shadow up(-) or down(+)
+blur-radius : controls softness of shadow
+spread-radius : increase or decrease the size of shadow
+color : shadow color

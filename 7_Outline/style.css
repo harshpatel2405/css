@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    line-height: 2.2;
+    color: #0a110a;
+    background-color: #ddd;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqDRZIpj3pC2uOaYj5xjs_eqhOPlzxg9xNiGMRut4LReWvEInHvTCEfCX7&s=10");
+    background-size: cover;
+}
+
+.content {
+    /* box-sizing: border-box; */
+    background: white;
+    width: 70vw;
+    padding: 3em;
+    outline: 100px solid red;
+}
+
+.title {
+    margin: 0 0 .5rem 0.5rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 3rem;
+    color: #034103;
+    line-height: 1;
+}
