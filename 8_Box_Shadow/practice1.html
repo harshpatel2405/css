@@ -1,0 +1,94 @@
+<!-- 
+*  Create a Product Card.
+
+* Requirements:
+* 
+* Product Image
+* Product Name
+* Product Price
+* Description
+* "Buy Now" Button
+
+* Apply:
+    * width
+    * padding
+    * margin
+    * border
+    * border-radius
+    * box-shadow
+    * On hover: Increase the shadow
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .card {
+            width: 276px;
+            height: 425px;
+            border: 2px solid black;
+            margin: 5px;
+            /* padding: 15px; */
+            padding-left: 12px;
+            padding-right: 12px;
+            padding-top: 5px;
+            text-align: center;
+            background-color: rgb(8, 0, 83);
+            border-radius: 10px;
+            color: gold;
+            box-sizing: border-box;
+        }
+
+        .card:hover {
+            width: 300px;
+            height: 450px;
+        }
+
+        img {
+            width: 250px;
+            height: 250px;
+            border-radius: 10px;
+            border: 1px solid blue;
+            box-shadow: inset -3px -5px 20px rgb(237, 255, 136), 3px 2px 20px rgb(247, 173, 178);
+        }
+
+        button {
+            width: 100px;
+            height: 30px;
+            margin-top: 2px;
+            font-weight: bold;
+            font-size: 20px;
+            background-color: rgb(6, 239, 6);
+            border: 2px solid black;
+            border-radius: 7px;
+            box-shadow: 3px 4px 4px rgb(57, 1, 1);
+        }
+
+        button:hover {
+            box-shadow: inset 5px 7px 7px rgb(101, 99, 1);
+            ;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <img
+            src="https://image01-in.oneplus.net/media/202512/12/864571bb797cacb4186dc3f01affc566.png?x-amz-process=image/format,webp/quality,Q_80">
+        <h3>Product Name : Android Smart Phone</h3>
+        <h3>Product Price : 44999 /-</h3>
+        <p>This is a smartphone with 6710maH Battery and a 200mp telescopic camera</p>
+        <button>Buy Now</button>
+    </div>
+</body>
+
+</html>
