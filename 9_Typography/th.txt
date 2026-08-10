@@ -1,0 +1,25 @@
+Typography
+----------
+How will your text gets appeared on a webpage ?
+
+Typography -> Style and control the apperances  ,spacing , alignment , presentation
+
+a. Text Properties
+color -> provuide color to the text
+text-align -> alignment of text 
+text-transform -> changing case of the text
+text-decoration -> 
+letter-spacing -> space between letters
+word-spacing -> space between words
+line-height -> vertical space occupied by the line
+text-shadow -> provides shadow to the text 
+
+text-wrap 
+text-overflow --> how the text overflowed text will look on screen 
+
+word-break 
+overflow-wrap
+text-indent
+
+
+b. Font Properties
