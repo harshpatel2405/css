@@ -11,7 +11,7 @@
         * {
             /* font-family: 'Arial';
             font-family: Arial, Helvetica, sans-serif; */
-            font-family:cursive;
+            font-family:'Roboto';
         }
 
         #size {
@@ -48,6 +48,24 @@
             /* font-style:normal; */
             font-style:oblique;
         }
+        #normal
+        {
+            font-variant: normal;
+        }
+        #variant
+        {
+            /* font-variant: small-caps; Converts lowercase into small Capital */
+            /* font-variant: all-small-caps; all text into small capital */
+            font-variant: titling-caps; 
+        }
+        #stretch
+        {
+            font-stretch: expanded;
+        }
+        #allInOne
+        {
+            font : italic bold 30px 'Arial'
+        }
     </style>
 </head>
 
@@ -61,6 +79,13 @@
 
     <p id="style">abcdefghijklmnopqrstuvwxyz</p>
     <p id="style2">abcdefghijklmnopqrstuvwxyz</p>
+
+    <p id="normal">Normal TEXT</p>
+    <p id="variant">variant text</p>
+
+    <p id="stretch">Font Stretch</p>
+
+    <p id="allInOne">Font all in one</p>
 </body>
 
 </html>

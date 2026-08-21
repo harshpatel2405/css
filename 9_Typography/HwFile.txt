@@ -1,0 +1,124 @@
+# CSS Typography — Practice Questions
+
+## 🟢 Easy Level
+
+### 1. Personal Introduction Card
+
+Create a webpage containing your **name, profession, and a short introduction**.
+
+Apply the following CSS properties:
+
+* `color`
+* `text-align`
+* `font-family`
+* `font-size`
+* `font-weight`
+* `font-style`
+* `text-transform`
+
+**Requirement:** Make the name uppercase, center-align it, and give it a different font size and weight.
+
+---
+
+### 2. Heading & Paragraph Styling
+
+Create a webpage with:
+
+* One `<h1>` heading
+* Two `<p>` paragraphs
+
+Apply:
+
+* `text-decoration`
+* `letter-spacing`
+* `word-spacing`
+* `line-height`
+* `font-size`
+* `font-family`
+
+**Requirement:** Make the heading underlined and increase the spacing between letters. Make the paragraphs comfortable to read using `line-height`.
+
+---
+
+## 🟡 Mid-Level
+
+### 3. Blog Article
+
+Create a small blog article containing:
+
+* Blog title
+* Author name
+* 2–3 paragraphs
+* A `"Read More"` link
+
+Apply different typography styles to each section.
+
+Use at least:
+
+* `text-align`
+* `text-transform`
+* `text-decoration`
+* `letter-spacing`
+* `word-spacing`
+* `line-height`
+* `font-weight`
+* `font-style`
+* `font-variant`
+
+**Requirement:** The author name should appear in **small caps**, the title should be uppercase, and the paragraphs should have increased line spacing.
+
+---
+
+### 4. Product Card
+
+Create a product card containing:
+
+```text
+Laptop
+Powerful laptop for students and developers
+Price: ₹55,000
+Available Now
+```
+
+Use typography properties to make the card visually attractive.
+
+Use:
+
+* `font-family`
+* `font-size`
+* `font-weight`
+* `font-style`
+* `color`
+* `text-align`
+* `text-shadow`
+* `text-transform`
+* `line-height`
+
+**Requirement:** The product name should have a text shadow, the price should be bold, and `"Available Now"` should be uppercase.
+
+---
+
+## 🔴 Hard Level
+
+### 5. Text Overflow & Breaking Challenge
+
+Create a fixed-width `<div>` containing a **very long paragraph or long URL/text without spaces**.
+
+Example:
+
+```text
+ThisIsAVeryLongTextThatShouldTestHowTheBrowserHandlesOverflowAndBreakingOfText...
+```
+
+The container should have a fixed width.
+
+Use:
+
+* `text-wrap`
+* `text-overflow`
+* `word-break`
+* `overflow-wrap`
+* `line-height`
+* `text-indent`
+* `letter-spacing`
+

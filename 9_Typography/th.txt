@@ -23,3 +23,8 @@ text-indent
 
 
 b. Font Properties
+font-family
+font-size
+font-weight
+font-style
+font-variant (small caps , all small caps , normal caps)
