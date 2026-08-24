@@ -1,0 +1,14 @@
+Display 
+-------
+1. block  -- new line 
+height and width are there 
+margin and padding are there
+
+
+2. inline -- same line
+width and height will not be there 
+
+
+3. inline-block -- same line
+height and width are there 
+margin and padding are there

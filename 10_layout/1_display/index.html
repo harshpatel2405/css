@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main {
+            height: 400px;
+            background-color: rgb(1, 1, 58);
+            margin: 10px;
+
+        }
+
+        .box {
+            display: inline;
+            width: 100px;
+            height: 100px;
+            background-color: rgb(110, 220, 56);
+            margin: 10px;
+        }
+
+        .second {
+            display: block;
+            width: 100px;
+            height: 100px;
+            background-color: rgb(110, 220, 56);
+            margin: 10px;
+        }
+
+         .thirdMain {
+            height: 400px;
+            background-color: rgb(1, 1, 58);
+            margin: 10px;
+
+        }
+
+        .data1{
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+            background-color: rgb(110, 220, 56);
+            margin: 10px;
+        }
+        .data2 {
+            display: inline-block;
+            height: 100px;
+            background-color: rgb(110, 220, 56);
+            margin: 10px;
+        }
+        #hidden
+        {
+            display:inline-block;
+        }
+        #hidden:hover
+        {
+            display:none;
+        }
+        .data2:hover
+        {
+            background-color:blue;
+        }
+        #visible
+        {
+            visibility:visible;
+            /* opacity: 0; */
+            opacity: 0.3;
+        }
+        #visible:hover
+        {
+            /* visibility: hidden; */
+            opacity:1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="box">Box 1</div>
+        <div class="box" id="visible">Box 2</div>
+        <div class="box">Box 3</div>
+
+        <span class="second">Span 1</span>
+        <span class="second">Span 2</span>
+        <span class="second">Span 3</span>
+    </div>
+
+    <div class="thirdMain">
+        <div class="data1">Box 1</div>
+        <div class="data1">Box 2</div>
+        <div class="data1">Box 3</div>
+
+        <span class="data2">Box 1</span>
+        <span class="data2"  id="hidden">Box 2</span>
+        <span class="data2">Box 3</span>
+
+    </di>
+</body>
+
+</html>
