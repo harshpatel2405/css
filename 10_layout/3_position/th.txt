@@ -1,0 +1,13 @@
+Position 
+--------
+position of element on the page (where will be the position of element) and how it interacts/behave with other elements
+
+position : value 
+          
+    value -> static , relative , absolute , fixed , sticky 
+   
+Default position is static
+Position : static ; these property generally do not move the element
+
+Position:absolute 
+element is absolutely positioned , it will not occupy its original layout space 
