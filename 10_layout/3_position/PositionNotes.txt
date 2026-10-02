@@ -1,0 +1,194 @@
+CSS POSITION — SHORT NOTES
+==========================
+
+The `position` property controls how an element is positioned on a webpage.
+
+Main values:
+
+1. static
+2. relative
+3. absolute
+4. fixed
+5. sticky
+
+
+--------------------------------------------------
+1. position: static
+--------------------------------------------------
+
+WHAT:
+- Default position of every element.
+- Element follows the normal document flow.
+- `top`, `right`, `bottom`, and `left` do not work.
+
+USE CASE:
+- Normal webpage elements such as headings, paragraphs,
+  buttons, images, cards, etc.
+
+EXAMPLE:
+Normal Student Profile Page.
+
+CODE:
+
+.box {
+    position: static;
+}
+
+
+--------------------------------------------------
+2. position: relative
+--------------------------------------------------
+
+WHAT:
+- Element stays in the normal document flow.
+- Can be moved using `top`, `left`, `right`, `bottom`.
+- Its original space is still reserved.
+- Commonly used as a parent for `absolute` elements.
+
+USE CASE:
+- Parent/container for badges, icons, overlays, etc.
+
+EXAMPLE:
+Product card containing a SALE badge.
+
+CODE:
+
+.card {
+    position: relative;
+}
+
+.badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+
+--------------------------------------------------
+3. position: absolute
+--------------------------------------------------
+
+WHAT:
+- Element is removed from the normal document flow.
+- Positioned relative to the nearest positioned ancestor.
+- Commonly used with a `relative` parent.
+
+USE CASE:
+- Badges
+- Icons
+- Image overlays
+- Close buttons
+- Labels
+
+EXAMPLE:
+SALE badge inside a product card.
+
+CODE:
+
+.card {
+    position: relative;
+}
+
+.sale {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+
+--------------------------------------------------
+4. position: fixed
+--------------------------------------------------
+
+WHAT:
+- Element is positioned relative to the browser viewport.
+- Removed from normal document flow.
+- Stays in the same screen position while scrolling.
+
+USE CASE:
+- Fixed navbar
+- Chat button
+- Back-to-top button
+- Floating action button
+
+EXAMPLE:
+Floating chat button.
+
+CODE:
+
+.chat {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+
+--------------------------------------------------
+5. position: sticky
+--------------------------------------------------
+
+WHAT:
+- Element behaves normally at first.
+- When scrolling reaches the specified position,
+  it sticks there.
+- It usually requires `top`, `bottom`, etc.
+
+USE CASE:
+- Sticky table headers
+- Section headings
+- Sticky menus
+
+EXAMPLE:
+Table header that stays visible while scrolling.
+
+CODE:
+
+th {
+    position: sticky;
+    top: 0;
+}
+
+
+--------------------------------------------------
+QUICK DIFFERENCE
+--------------------------------------------------
+
+static
+→ Normal position
+
+relative
+→ Normal position + can move
+
+absolute
+→ Removed from flow + positioned inside a parent
+
+fixed
+→ Attached to the screen
+
+sticky
+→ Normal first + sticks while scrolling
+
+
+--------------------------------------------------
+MOST IMPORTANT PATTERN
+--------------------------------------------------
+
+Use `relative` on the parent and `absolute` on the child:
+
+.parent {
+    position: relative;
+}
+
+.child {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+This is commonly used for:
+
+Product badges
+Notification badges
+Icons
+Image overlays
+Close buttons
