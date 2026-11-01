@@ -1,0 +1,79 @@
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.backbox>div {
+    position: absolute;
+    border-radius: 100%;
+}
+
+#purpul {
+    top: 25%;
+    left: 55%;
+    background-color: #9717D5;
+    height: 250px;
+    width: 250px;
+    box-shadow: inset 20px -20px 5px 10px rgba(253, 253, 253, 0.089), ;
+}
+
+#orange {
+    top: 31%;
+    left: 46%;
+    background-color: #FD3246;
+    height: 100px;
+    width: 100px;
+}
+
+#pink {
+    background-color: #FF2780;
+    height: 175px;
+    width: 175px;
+    top: 52%;
+    left: 40%;
+}
+
+.frontbox {
+    /* margin:0 auto; */
+    top: 220px;
+    left: 640px;
+    position: relative;
+    width: 375px;
+    height: 260px;
+    background-color: rgba(109, 109, 109, 0.283);
+    border-radius: 13px;
+    backdrop-filter: blur(15px);
+    /* box-shadow: inset 2px 3px rgb(247, 3, 3); */
+    border: 2px solid rgba(255, 255, 255, 0.404);
+    padding: 10px;
+
+    color: rgba(250, 250, 250, 0.664);
+}
+
+#text {
+    position: absolute;
+    color: white;
+    top:7%;
+    left:5%;
+}
+
+#image {
+
+    position: absolute;
+    top:7%;
+    right: 5%;
+}
+
+#name
+{
+    position:absolute;
+    bottom: 15%;
+    left:5%;
+}
+
+#web
+{
+    position:absolute;
+     left: 5%;
+     bottom:15px;
+}
