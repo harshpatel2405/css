@@ -1,0 +1,44 @@
+display : flex 
+
+flex-direction 
+flex-shrink
+flex-grow 
+order 
+
+justify-content 
+align-items
+
+flex-wrap 
+
+gap 
+column-gap 
+row-gap 
+
+flex 
+
+Parent 
+------
+display 
+flex-direction 
+flex-wrap 
+flex-flow
+justify-content 
+align-items 
+gap
+column-gap
+row-gap 
+
+Child 
+-----
+order 
+flex-shrink
+flex-grow 
+flex 
+align-self 
+flex-basis
+align-content 
+
+<==================================================================>
+Flexbox Container  - 2D
+-----------------
+display : flex;
