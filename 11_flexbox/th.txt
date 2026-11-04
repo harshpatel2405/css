@@ -27,18 +27,18 @@ align-items
 gap
 column-gap
 row-gap 
+align-content 
 
 Child 
 -----
 order 
 flex-shrink
 flex-grow 
-flex 
 align-self 
 flex-basis
-align-content 
 
 <==================================================================>
 Flexbox Container  - 2D
 -----------------
+flex 
 display : flex;

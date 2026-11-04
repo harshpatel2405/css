@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-align: center;
+      }
+
+      body {
+        background-color: #09000f;
+      }
+
+      h1 {
+        color: #ffffff;
+        margin-top: 25px;
+      }
+
+      .parent {
+        margin: 50px auto;
+        /* min-height: 100px; */
+        height: 550px;
+        width: 900px;
+        background-color: #12091f;
+        border: 4px solid #7c3aed;
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+      }
+
+      .child {
+        width: 100px;
+        height: 80px;
+        background-color: #7c3aed;
+        border: 3px solid #c4b5fd;
+        color: #ffffff;
+        font-size: 1.8em;
+        font-weight: 700;
+        margin: 10px;
+      }
+
+      #imp1
+      {
+        flex-shrink: 0;
+        flex-grow: 0;
+        order: 0;
+      }
+      #imp2
+      {
+        flex-shrink: 1;
+        flex-grow: 1;
+        order:2;
+        /* align-self: center; */
+      }
+      #imp3
+      {
+        flex-shrink: 2;
+        flex-grow: 2;
+        order:-1;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>FlexBox Container</h1>
+
+    <div class="parent">
+      <div class="child">Box 1</div>
+      <div class="child" id="imp1">Box 2</div>
+      <div class="child" id="imp2">Box 3</div>
+      <div class="child" id="imp3">Box 4</div>
+      <div class="child">Box 5</div>
+      <div class="child">Box 6</div>
+      <div class="child">Box 7</div>
+      <div class="child">Box 8</div>
+      <div class="child">Box 9</div>
+      <div class="child">Box 10</div>
+      <div class="child">Box 11</div>
+      <div class="child">Box 12</div>
+      <!-- <div class="child">Box 13</div> -->
+      <!-- <div class="child">Box 14</div> -->
+      <!-- <div class="child">Box 15</div> -->
+      <!-- <div class="child">Box 16</div> -->
+      <!-- <div class="child">Box 17</div> -->
+      <!-- <div class="child">Box 18</div> -->
+      <!-- <div class="child">Box 19</div> -->
+      <!-- <div class="child">Box 20</div> -->
+    </div>
+    
+  </body>
+</html>
