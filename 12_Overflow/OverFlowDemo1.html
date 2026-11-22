@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    *
+    {
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+        background-color: rgb(23, 1, 44);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #info
+    {
+        color: white;
+        /* border: 3px solid white; */
+        padding:10px;
+        text-decoration: underline;
+        text-align: center;
+        /* width: 30vw; */
+        /* margin: 10px auto; */
+        font-weight: 900;
+    }
+    .box
+    {
+       
+            height: 100px;
+            width: 70vw;            
+            margin: 10px auto;
+            background-color: rgb(82, 1, 82);
+            border: 2px solid white ;
+            color:white;
+            font-size: 2em;
+            font-weight: 700;
+            padding: 5px;
+        }
+        #visible
+        {
+            overflow: visible;
+        }
+        #hidden
+        {
+            margin-top: 120px;
+            overflow: hidden;
+        }
+
+        #scroll
+        {
+             margin-top: 30px;
+            overflow: scroll;
+        }
+
+        #auto
+        {
+             margin-top: 30px;
+            overflow: auto;
+        }
+
+        #clip
+        {
+             margin-top: 30px;
+            overflow: clip;
+        }
+    
+    </style>
+</head>
+<body>
+    <h1 id="info">CSS Overflow Examples</h1>
+    <div class="box" id="visible">This is overflow : visible which is default and allows content to go outside the container This is overflow : visible which is default and allows content to go outside the containerThis is overflow : visible which is default and allows content to go outside the container This is overflow : visible which is default and allows content to go outside the container</div>
+     <div class="box" id="hidden">This is overflow : visible which is default and allows content to go outside the container This is overflow : visible which is default and allows content to go outside the containerThis is overflow : visible which is default and allows content to go outside the container This is overflow : visible which is default and allows content to go outside the container</div>
+        <div class="box" id="scroll">This is overflow : visible which is default and allows content to go outside the container This is overflow : visible which is default and allows content to go outside the containerThis is overflow : visible which is default and allows content to go outside the container This is overflow : visible which is default and allows content to go outside the container</div>
+        <div class="box" id="auto">This is overflow : visible which is default and allows content to go outside the container This is overflow : visible which is default and allows content to go outside the containerThis is overflow : visible which is default and allows content to go outside the container This is overflow : visible which is default and allows content to go outside the container</div>
+        <div class="box" id="clip">This is overflow : visible which is default and allows content to go outside the container This is overflow : visible which is default and allows content to go outside the containerThis is overflow : visible which is default and allows content to go outside the container This is overflow : visible which is default and allows content to go outside the container</div>
+        <div class="box"></div>
+</body>
+</html>
