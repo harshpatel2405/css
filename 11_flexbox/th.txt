@@ -42,3 +42,9 @@ Flexbox Container  - 2D
 -----------------
 flex 
 display : flex;
+
+align items -- it treats all child as a single compoent , irrespective of wrap
+
+flex lines -- 
+
+align content -- flex lines

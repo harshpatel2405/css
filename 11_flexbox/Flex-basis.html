@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .main {
+            display: flex;
+            width: 600px;
+            background-color: cadetblue;
+            /* flex-direction: column; */
+        }
+
+        .box {
+            height: 100px;
+            margin: 5px;
+            background-color: rgb(27, 0, 27);
+            flex-grow: 1;
+            /* flex-basis: 0; */
+        }
+
+        #box1 {
+            /* flex-basis:0; */
+            /* flex-basis: 100px; */
+        }
+
+        #box2 {
+            /* flex-basis: 200px; */
+        }
+
+        #box3 {
+            /* flex-basis: 130px; */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="box" id="box1"></div>
+        <div class="box" id="box2"></div>
+        <div class="box" id="box3"></div>
+    </div>
+</body>
+
+</html>
+
+150px
+/3 = 50px
